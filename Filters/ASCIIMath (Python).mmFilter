@@ -1,0 +1,5 @@
+{
+	name          = 'ASCIIMath (Python)';
+	uuid          = 'A5574670-971A-47B4-86F8-A2901F252613';
+	command       = '#!/bin/bash\n"${MM_BUNDLE_SUPPORT}/bin/asciimath"\n';
+}
