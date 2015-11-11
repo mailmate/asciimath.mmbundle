@@ -1,0 +1,9 @@
+# This file shows how the vendor folder has been created.
+# In theory, it can be executed, but it's very fragile. It could easily
+# break if any of the involved parts are changed (or not on 10.11).
+
+rm -r vendor
+mkdir vendor
+cd vendor
+curl https://raw.githubusercontent.com/favalex/python-asciimathml/master/asciimathml.py > asciimathml.py
+curl https://raw.githubusercontent.com/favalex/python-asciimathml/master/COPYING > asciimathml-license.txt
