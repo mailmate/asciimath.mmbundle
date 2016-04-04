@@ -1,0 +1,5 @@
+{
+	name          = 'ASCIIMath (amath)';
+	uuid          = 'A23ECCED-ACB7-41A0-9FC3-6FC439BC817D';
+	command       = '#!/bin/bash\n"${MM_BUNDLE_SUPPORT}/bin/amath"\n';
+}
