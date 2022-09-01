@@ -1,9 +1,11 @@
 # This file shows how the vendor folder has been created.
 # In theory, it can be executed, but it's very fragile. It could easily
-# break if any of the involved parts are changed (or not on 10.11).
+# break if any of the involved parts are changed.
 
 rm -r vendor
 mkdir vendor
 cd vendor
-curl https://raw.githubusercontent.com/favalex/python-asciimathml/master/asciimathml.py > asciimathml.py
-curl https://raw.githubusercontent.com/favalex/python-asciimathml/master/COPYING > asciimathml-license.txt
+curl https://raw.githubusercontent.com/ShadowKyogre/python-asciimathml/master/asciimathml.py > asciimathml.py
+curl https://raw.githubusercontent.com/ShadowKyogre/python-asciimathml/master/COPYING > asciimathml-license.txt
+
+# Note Sep 2022: Updated the above to use a fork supporting python3, but more work is needed. The x.getchildren() method has been deprecated and needs to be replaced with list(x). In this update, it was done manually after the above.
